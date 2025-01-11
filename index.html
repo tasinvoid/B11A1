@@ -12,59 +12,59 @@
     <main>
         <nav>
             <h1>Bangladesh 2.0</h1>
-            <button>Sign In</button>
+            <button id="signIn">Sign In</button>
         </nav>
 
         <div id="hero-content">
             <div>
-                <p>Bangladesh 2.0</p>
-                <h1>Idea , innovation , vision and challenges in New Bangladesh.</h1>
-                <button>Explore New Bangladesh</button>
+                <p id="hero-pre-title">Bangladesh 2.0</p>
+                <h1 id="hero-title">Idea , innovation ,<br> vision and challenges in <br>New Bangladesh.</h1>
+                <button id="hero-btn">Explore New Bangladesh</button>
             </div>
-            <div>
-                <img src="/assets/hero.png" alt="" />
+            <div id="hero-img-container">
+                <img id="hero-img" src="/assets/hero.png" alt="" />
             </div>
         </div>
 
-        <div>
+        <div id="pillar-card-container">
             <h1>Pillars of "Bangladesh 2.0"</h1>
-            <div id="cards">
-                <div class="card">
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Innovation</h1>
-                    <p>
-                        Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi
+            <div id="pillar-cards">
+                <div class="pillar-card">
+                    <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                    <h1 class="pillar-card-heading">Innovation</h1>
+                    <p class="pillar-card-text">
+                        Dolor sit amet consectetur elit.<br> Facilis quas, ducimus labore sequi <br>
                         quos
                     </p>
                 </div>
-                <div class="card">
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Sustainability</h1>
-                    <p>
-                        Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi
+                <div class="pillar-card">
+                    <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                    <h1 class="pillar-card-heading">Sustainability</h1>
+                    <p class="pillar-card-text">
+                        Dolor sit amet consectetur elit.<br> Facilis quas, ducimus labore sequi <br>
                         quos
                     </p>
                 </div>
-                <div class="card">
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Infrastructure</h1>
-                    <p>
-                        Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi
+                <div class="pillar-card">
+                    <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                    <h1 class="pillar-card-heading">Infrastructure</h1>
+                    <p class="pillar-card-text">
+                        Dolor sit amet consectetur elit.<br> Facilis quas, ducimus labore sequi <br>
                         quos
                     </p>
                 </div>
-                <div class="card">
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Empowerment</h1>
-                    <p>
-                        Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi
+                <div class="pillar-card">
+                    <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                    <h1 class="pillar-card-heading">Empowerment</h1>
+                    <p class="pillar-card-text">
+                        Dolor sit amet consectetur elit.<br> Facilis quas, ducimus labore sequi <br>
                         quos
                     </p>
                 </div>
             </div>
         </div>
 
-        <div>
+        <div id="vision-container">
             <h1>The Vision of Future</h1>
             <p>
                 Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
@@ -73,38 +73,47 @@
                 transformation, and robust infrastructure, the country is set to become
                 a global model of development.
             </p>
-            <div>
-                <div>
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Digital Transformation</h1>
-                    <p>
-                        Creating a nationwide digital ecosystem to enhance connectivity and
-                        access to services for all citizens.
-                    </p>
+            <div id="vision-card-container">
+                <div class="vision-card" id="blue-vision-card">
+                    <div>
+                        <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                        <h1 class="vision-card-heading">Digital Transformation</h1>
+                        <p>
+                            Creating a nationwide digital ecosystem to<br>enhance connectivity and
+                            access to services for<br>all citizens.
+                        </p>
+                    </div>
+                    
                     <button>Learn More</button>
                 </div>
-                <div>
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Green Energy</h1>
-                    <p>
-                        Investments in solar and wind energy to ensure a sustainable and
-                        eco-friendly future.
-                    </p>
+                <div class="vision-card" id="green-vision-card">
+                    <div>
+                        <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                        <h1 class="vision-card-heading">Green Energy</h1>
+                        <p>
+                            Investments in solar and wind energy to ensure <br>a sustainable and
+                            eco-friendly future.
+                        </p>
+                    </div>
+                    
                     <button>Learn More</button>
                 </div>
-                <div>
-                    <img src="/assets/card-icon.png" alt="" />
-                    <h1>Modern Infrastructure</h1>
-                    <p>
-                        Building state-of-the-art infrastructure to support economic growth
-                        and global competitiveness.
-                    </p>
+                <div class="vision-card" id="orange-vision-card">
+                    <div>
+                        <img class="card-icon" src="/assets/card-icon.png" alt="" />
+                        <h1 class="vision-card-heading">Modern Infrastructure</h1>
+                        <p>
+                            Building state-of-the-art infrastructure to support<br>economic growth
+                            and global competitiveness.
+                        </p>
+                    </div>
+                    
                     <button>Learn More</button>
                 </div>
             </div>
         </div>
 
-        <div>
+        <div id="yunus-container">
             <p>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quas,
                 ducimus labore sequi quos deserunt optio id repellendus tempora veniam
@@ -116,40 +125,41 @@
                 necessitatibus vero?"
             </p>
             <h1>Dr. Muhammad Yunus</h1>
-            <p>Chief Adviser of the People's Republic of Bangladesh</p>
+            <p id="yunus-sign">Chief Adviser of the People's Republic of Bangladesh</p>
         </div>
 
-        <div>
+        <div id="opinion-container">
             <h1>Your Opinion Matters</h1>
-            <div>
+            <div id="table-container">
                 <table>
                     <tr>
                         <th>Questions</th>
                         <th>Select Your Opinion</th>
                     </tr>
                     <tr>
-                        <p></p>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
+                        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td><select name="" id="">
+                            <option value="">Yes,I Agree</option>
+                            <option value="">No</option>
+                            <option value="">No</option>
+                        </select></td>
+                        
                     </tr>
                     <tr>
-                        <p></p>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
+                        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td><select name="" id="">
+                            <option value="">Yes,I Agree</option>
+                            <option value="">No</option>
+                            <option value="">No</option>
+                        </select></td>
                     </tr>
                     <tr>
-                        <p></p>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
+                        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td><select name="" id="">
+                            <option value="">Yes,I Agree</option>
+                            <option value="">No</option>
+                            <option value="">No</option>
+                        </select></td>
                     </tr>
                 </table>
             </div>

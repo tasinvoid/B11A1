@@ -1,5 +1,206 @@
-*{
-    padding: 0;
-    margin: 60;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Fira Sans;
+}
+body {
+  margin: 70px;
+  background-color: rgb(245, 245, 245);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 29px 0;
+}
+#signIn {
+  width: 136px;
+  height: 62px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 9px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(0, 106, 80);
+}
+#hero-content {
+  height: 660px;
+  padding: 137px 70px;
+  background-color: rgb(198, 228, 214);
+  border-radius: 29px;
+  display: flex;
+  gap: 76px;
+  justify-content: space-between;
+}
+#hero-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 67px;
+}
+#hero-pre-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+}
+#hero-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  border: none;
+  margin-top: 29px;
+}
+#hero-img {
+  height: 472px;
+  width: 560px;
+}
+#hero-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pillar-card-container {
+  margin: 95px 0;
+}
+#pillar-cards {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.pillar-card {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 36px;
+}
+.pillar-card-heading {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.pillar-card-text {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-icon {
+  height: 75px;
+  width: 75px;
+}
+#vision-card-container {
+  margin: 38px 0;
+}
+.vision-card {
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  border-radius: 20px;
+}
+#vision-container > h1 {
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+#vision-container,
+.vision-card > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+#vision-card-container {
+  display: flex;
+  gap: 29px;
+}
+.vision-card-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 15px;
+}
+.vision-card > button {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+#blue-vision-card {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+#blue-vision-card > button {
+  background-color: rgb(84, 144, 245);
+}
+#green-vision-card {
+  background-color: rgb(198, 228, 214);
+}
+#green-vision-card > button {
+  background-color: rgb(9, 161, 92);
+}
+#orange-vision-card {
+  background-color: rgb(247, 235, 207);
+}
+#orange-vision-card > button {
+  background-color: rgb(255, 194, 57);
+}
+#yunus-container {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 57px 28px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+
+  background-image: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+#yunus-container > h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+#yunus-sign {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#opinion-container{
+    margin: 95px 0;
+}
+#opinion-container > h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+#table-container{
+    margin:38px;
+    background-color: ;
+}
+tr>th{
+    font-size: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+padding: 28px;
 }
