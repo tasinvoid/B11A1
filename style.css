@@ -204,3 +204,39 @@ tr>th{
 background: rgb(198, 228, 214);
 padding: 28px;
 }
+tr>td{
+    font-size: 19px;
+font-weight: 600;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+padding: 27px;
+
+}
+#table-question{
+    padding-right: 600px;
+
+}
+#selection{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+padding: 10px 14px 10px 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#recent-news-container>h1{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+#recent-news-container>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 28px 0;
+}
