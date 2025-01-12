@@ -5,6 +5,13 @@
   font-family: Fira Sans;
 }
 body {
+  background-color: rgb(245, 245, 245);
+}
+main {
+  margin: 70px;
+  background-color: rgb(245, 245, 245);
+}
+header {
   margin: 70px;
   background-color: rgb(245, 245, 245);
 }
@@ -123,6 +130,8 @@ nav {
 #vision-card-container {
   display: flex;
   gap: 29px;
+  align-items: center;
+  justify-content: center;
 }
 .vision-card-heading {
   font-size: 24px;
@@ -186,57 +195,296 @@ nav {
   font-weight: 400;
   line-height: 24px;
 }
-#opinion-container{
-    margin: 95px 0;
+#opinion-container {
+  margin: 95px 0;
 }
 #opinion-container > h1 {
   font-size: 44px;
   font-weight: 700;
   margin-bottom: 30px;
 }
-#table-container{
-    margin:38px;
-    background-color: ;
+#table-container {
+  margin: 38px 0;
+  background-color: white;
 }
-tr>th{
-    font-size: 24px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(198, 228, 214);
-padding: 28px;
+tr > th {
+  font-size: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  padding: 28px;
 }
-tr>td{
-    font-size: 19px;
-font-weight: 600;
-border: 1px solid rgba(14, 14, 14, 0.15);
-background: rgba(255, 255, 255, 0.1);
-padding: 27px;
+tr > td {
+  font-size: 19px;
+  font-weight: 600;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 27px;
+}
+tr > td:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#table-question {
+  padding-right: 600px;
+}
+#selection {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px 10px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#recent-news-container > h1 {
+  font-size: 48px;
+  font-weight: 700;
 }
-#table-question{
-    padding-right: 600px;
+#recent-news-container > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 28px 0;
+}
+#aljazeera-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.alzazeera-card {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 56px;
+  display: flex;
+  gap: 92px;
+}
+.alzazeera-card > h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: 700;
+}
+.alzazeera-card > img {
+  width: 481px;
+  height: 361px;
+  border-radius: 26px;
+}
+.alzazeera-card > div > img {
+  height: 47px;
+  width: 138px;
+  margin: 15px 0;
+}
+.datetimes {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.aljazeera-news {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.aljazeera-btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 18px 27px;
+  margin-top: 37px;
+}
+#donate-container {
+  margin: 95px 0;
+}
+#donate-container > h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#donate-container > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 30px 0;
+}
+#taka-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  margin: 30px;
+}
+.taka-card {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 48px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.taka-card:hover {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 48px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+#taka-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+#taka-input {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  margin: 20px 0;
+  width: 1217px;
+  height: 75px;
 }
-#selection{
-    font-size: 16px;
-    font-weight: 500;
-    border: 1px solid rgb(14, 14, 14);
-border-radius: 4px;
-background: rgb(198, 228, 214);
-padding: 10px 14px 10px 14px;
-display: flex;
-justify-content: center;
-align-items: center;
+#taka-input::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24px;
 }
+#taka-btn {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+#subscribe-container {
+  border-radius: 24px;
 
-#recent-news-container>h1{
-    font-size: 48px;
-    font-weight: 700;
-
+  background: rgb(198, 228, 214);
+  padding: 90px 140px;
 }
-#recent-news-container>p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 19px;
-    font-weight: 400;
-    margin: 28px 0;
+#subscribe-container > h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0;
+}
+#subscribe-container > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 20px 0;
+}
+#mail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mail-container > input {
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  border: none;
+  width: 750px;
+  height: 70px;
+  padding: 0 50px;
+}
+#mail-container > input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#mail-container > button {
+  height: 70px;
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+
+  text-align: center;
+  padding: 20px 40px;
+  border: none;
+}
+footer {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  padding: 75px 40px;
+}
+footer > p {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+  text-align: center;
+  padding-bottom: 50px;
+}
+#icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+}
+#icons-container > img {
+  height: 30px;
+  width: 30px;
 }
